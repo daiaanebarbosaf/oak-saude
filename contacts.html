@@ -7,6 +7,7 @@
   <title>OAK - Saúde</title>
 
   <link rel="stylesheet" href="./css/style.css"/>
+  <link rel="stylesheet" href="./css/contacts-style.css"/>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -70,18 +71,18 @@
           </a>
           <div class="menu">
               <ul>
-                  <li><a onclick="closeMenu()" href="#home">Início</a></li>
+                  <li><a onclick="closeMenu()" href="index.html">Início</a></li>
 
                   <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
 
                   <li><a onclick="closeMenu()" href="#como-fazemos">Como fazemos</a></li>
 
-                  <li><a onclick="closeMenu()" href="#services">Compliance</a></li>
+                  <li><a onclick="closeMenu()" href="#services">Especialidades</a></li>
 
-                  <li><a onclick="closeMenu()" href="contacts.html">Contato</a></li>
+                  <li><a onclick="closeMenu()" href="#contact">Contato</a></li>
               </ul>
 
-              <a class="button" onclick="closeMenu()" href="contacts.html">Agende sua consulta</a>
+              <a class="button" onclick="closeMenu()" href="#contact">Agende sua consulta</a>
 
               <ul class="social-links">
                   <li><!--A propriedade target=_blank faz com que ao clicar no link das redes sociais se abra uma nova guia-->
@@ -150,250 +151,38 @@
       </div>
     </nav>
 
-    <section id="home">
-        <div class="wrapper">
-            <div class="col-a">
-                <header>
-                    <h1>Assistência médica simplificada para todos</h1>
-                </header>
-    
-                <div class="content">
-                    <p>
-                        Os médicos da OAK - Saúde vão além dos sintomas para tratar a causa raiz de sua doença e proporcionar uma cura a longo prazo.
-                    </p>
-            
-                    <a class="button" href="#contact">
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13.8337 11.6667C13.667 11.5833 12.5837 11.0833 12.417 11C12.2503 10.9167 12.0837 10.9167 11.917 11.0833C11.7503 11.25 11.417 11.75 11.2503 11.9167C11.167 12.0833 11.0003 12.0833 10.8337 12C10.2503 11.75 9.66699 11.4167 9.16699 11C8.75033 10.5833 8.33366 10.0833 8.00033 9.58334C7.91699 9.41668 8.00033 9.25001 8.08366 9.16668C8.16699 9.08334 8.25033 8.91668 8.41699 8.83334C8.50033 8.75001 8.58366 8.58334 8.58366 8.50001C8.66699 8.41668 8.66699 8.25001 8.58366 8.16668C8.50033 8.08334 8.08366 7.08334 7.91699 6.66668C7.83366 6.08334 7.66699 6.08334 7.50033 6.08334C7.41699 6.08334 7.25033 6.08334 7.08366 6.08334C6.91699 6.08334 6.66699 6.25001 6.58366 6.33334C6.08366 6.83334 5.83366 7.41668 5.83366 8.08334C5.91699 8.83334 6.16699 9.58334 6.66699 10.25C7.58366 11.5833 8.75033 12.6667 10.167 13.3333C10.5837 13.5 10.917 13.6667 11.3337 13.75C11.7503 13.9167 12.167 13.9167 12.667 13.8333C13.2503 13.75 13.7503 13.3333 14.0837 12.8333C14.2503 12.5 14.2503 12.1667 14.167 11.8333C14.167 11.8333 14.0003 11.75 13.8337 11.6667ZM15.917 4.08334C12.667 0.833344 7.41699 0.833344 4.16699 4.08334C1.50033 6.75001 1.00033 10.8333 2.83366 14.0833L1.66699 18.3333L6.08366 17.1667C7.33366 17.8333 8.66699 18.1667 10.0003 18.1667C14.5837 18.1667 18.2503 14.5 18.2503 9.91668C18.3337 7.75001 17.417 5.66668 15.917 4.08334ZM13.667 15.75C12.5837 16.4167 11.3337 16.8333 10.0003 16.8333C8.75033 16.8333 7.58366 16.5 6.50033 15.9167L6.25033 15.75L3.66699 16.4167L4.33366 13.9167L4.16699 13.6667C2.16699 10.3333 3.16699 6.16668 6.41699 4.08334C9.66699 2.00001 13.8337 3.08334 15.8337 6.25001C17.8337 9.50001 16.917 13.75 13.667 15.75Z"
-                                fill="white" />
-                            </svg>
-                            Agende sua consulta
-                    </a>
-                    
-                </div>
-            </div>
-            
-            <div class="col-b">
-                <img src="./assets/mulher-negra-com-moleton-verde-com-as-maos-no-peito.png" alt="Mulher negra vestindo moletom verde vestindo um moletom verde e sorrindo"/>
-            </div>
+    <main id="contact">
 
-            <div class="stats">
-                <div class="stat">
-                    <h3>Nossa missão</h3>
-                    <p>Atendimento de médico especialista com qualidade , vencendo barreiras geográficas, através da telemedicina.
-                    </p>
-                </div>
-
-                <div class="stat">
-                    <h3>Nossa visão</h3>
-                    <p>Sermos reconhecidos no ecossistema da saúde por oferecer atendimento de qualidade, em todas as especialidades médicas, com assertividade e resolutividade.
-                    </p>
-                </div>
-
-                <div class="stat">
-                    <h3>Nossos Valores</h3>
-                    <p>Ética, Resolutividade, Humanização, Qualidade.</p>
-                </div>
-            </div>
+      <section id="mapa">
+        <div class="mapa-conteudo">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117027.6021209046!2d-46.662203825954194!3d-23.56440031262226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59541c6c79c3%3A0x36b90a85f0f8cb33!2sGrupo%20Alura!5e0!3m2!1spt-BR!2sbr!4v1649682378021!5m2!1spt-BR!2sbr"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-    </section>
-
-    <section id="about">
-        <div class="wrapper">
-            <div class="col-a">
-                <header>
-                    <h4>Sobre nós</h4>
-                    <h2>Entenda quem somos e porque existimos </h2>
-                </header>
-    
-                <div class="content">
-                    <p>
-                        Empresa médica de especialistas experientes, que trabalham juntos em telemedicina desde 2020, com o início da pandemia de covid-19.
-
-                    </p>
-                </div>
+        </section>
+  
+      <form action="">
+        <fieldset>
+          <div class="col-3">
+            <div class="input-wrapper">
+              <input type="text" id="name" required placeholder="Nome"/>
             </div>
-            
-            <div class="col-b">
-                <img 
-                    src="./assets/doutor-feliz-segurando-prancheta-com-pacientes.png" alt="Doutor feliz segurando uma prancheta atentendo pacientes" 
-                />
-            </div>
+  
+          <div class="input-wrapper">
+            <input type="email" id="email" required placeholder=" E-mail"/>
+          </div>
 
+          <div class="input-wrapper">
+            <input type="tel" id="phone" required placeholder=" Telefone"/>
+          </div>
         </div>
-    </section>
+        </fieldset>
 
-    <section id="beneficios-teleatendimento">
-        <div class="wrapper">
-            <div class="col-a">
-                <header>
-                    <h2>Por que a telemedicina reduz custos?
-                    </h2>
-                </header>
-                <div class="content">
-                    <ul>
-                        <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="12" cy="12" r="12" fill="#DCE9E2"/>
-                                <path d="M17.091 8.18182L10.091 15.1818L6.90918 12" stroke="#00856F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <p>Aumento da resolutividade com acesso ao especialista;
-                            </p>
-                        </li>
-                        <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="12" cy="12" r="12" fill="#DCE9E2"/>
-                                <path d="M17.091 8.18182L10.091 15.1818L6.90918 12" stroke="#00856F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <p>Melhor controle do doente crônico;</p>
-                        </li>
-                        <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="12" cy="12" r="12" fill="#DCE9E2"/>
-                                <path d="M17.091 8.18182L10.091 15.1818L6.90918 12" stroke="#00856F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <p>Possibilidade de atendimento de acamados em domicílio e hospitais;</p>
-                        </li>
-
-                        <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="12" cy="12" r="12" fill="#DCE9E2"/>
-                                <path d="M17.091 8.18182L10.091 15.1818L6.90918 12" stroke="#00856F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <p>Redução de custos com transporte de pacientes;</p>
-                        </li>
-                        <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="12" cy="12" r="12" fill="#DCE9E2"/>
-                                <path d="M17.091 8.18182L10.091 15.1818L6.90918 12" stroke="#00856F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <p>Possibilidade de educação continuada de equipes;</p>
-                        </li>
-                    </ul>
-    
-                </div>
-            </div>
-
-            <div class="col-b">
-                <img 
-                    src="./assets/homem-negro-com-moletom-verde-mexendo-nocelular.png" alt="Homem negro com moletom verde mexendo no celular e sorrindo"
-                />
-            </div>
+        <div class="input-wrapper">
+            <textarea name="" id="contact-text" cols="30" rows="5" required placeholder="Mensagem"></textarea>
         </div>
-    </section>
-
-    <section id="consulta-especializada">
-        <div class="wrapper">
-            <div class="col-a">
-                <header>
-                    <h2>Consulta especializada</h2>
-                </header>
-                <div class="content">
-                    <ul>
-                        <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="12" cy="12" r="12" fill="#DCE9E2"/>
-                                <path d="M17.091 8.18182L10.091 15.1818L6.90918 12" stroke="#00856F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <p>Decisões clínicas sendo tomadas de modo mais seguro, no tempo adequado;
-                            </p>
-                        </li>
-                        <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="12" cy="12" r="12" fill="#DCE9E2"/>
-                                <path d="M17.091 8.18182L10.091 15.1818L6.90918 12" stroke="#00856F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <p>Garantia de equidade no cuidado;</p>
-                        </li>
-                        <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="12" cy="12" r="12" fill="#DCE9E2"/>
-                                <path d="M17.091 8.18182L10.091 15.1818L6.90918 12" stroke="#00856F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <p>Melhoria dos resultados assistenciais;</p>
-                        </li>
-
-                        <li>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="12" cy="12" r="12" fill="#DCE9E2"/>
-                                <path d="M17.091 8.18182L10.091 15.1818L6.90918 12" stroke="#00856F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <p>Melhor controle dos pacientes crônicos com redução de mortalidade evitável;</p>
-                        </li>
-                    </ul>
-    
-                </div>
-            </div>
-
-            <div class="col-b">
-                <img 
-                    src="./assets/homem-negro-com-moletom-verde-mexendo-nocelular.png" alt="Homem negro com moletom verde mexendo no celular e sorrindo"
-                />
-            </div>
-        </div>
-    </section>
-
-    <section id="services">
-        <div class="wrapper">
-            <header>
-                <h4>Compliance</h4>
-                <h2>Mas o que é Compliance?</h2>
-                <p>É um sistema de controle que permite à empresa estar em conformidade com atos, normas e leis. Ele possibilita a criação de boas práticas para adequação dentro da empresa.</p>
-            </header>
-
-            <div class="content">
-                <div class="cards">
-                    <div class="card">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="12" cy="12" r="12" fill="#DCE9E2"/>
-                            <path d="M17.091 8.18182L10.091 15.1818L6.90918 12" stroke="#00856F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        
-                        <h3>Oferecemos</h3>
-                        <p>Implementação de práticas de Compliance.</p>
-                    </div>
-                
-                    <div class="card">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="12" cy="12" r="12" fill="#DCE9E2"/>
-                            <path d="M17.091 8.18182L10.091 15.1818L6.90918 12" stroke="#00856F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        
-                        <h3>Nós temos</h3>
-                        <p>Equipe multidisciplinar com especialistas nas áreas do direito, conformidade e TI.</p>
-                    </div>
-
-                    <div class="card">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="12" cy="12" r="12" fill="#DCE9E2"/>
-                            <path d="M17.091 8.18182L10.091 15.1818L6.90918 12" stroke="#00856F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        
-                        <h3>Desenvolvemos</h3>
-                        <p>Documentos necessários, para deixar sua empresa em conformidade com a LGPD.</p>
-                    </div>
-
-                    <div class="card">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="12" cy="12" r="12" fill="#DCE9E2"/>
-                            <path d="M17.091 8.18182L10.091 15.1818L6.90918 12" stroke="#00856F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        
-                        <h3>Expertise</h3>
-                        <p>Implementação da Lei Geral de Proteção de Dados voltada à área trabalhista.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="line"></div>
-    </section >
-
-    <section id="artigos">
-        <header>
-            <h4>Artigos</h4>
-            <h2>Sobre os artigos ou imagens</h2>
-          </header>
-    </section>
+      </form>
+    </main>
 
     <footer>
         <div class="wrapper">
@@ -509,21 +298,6 @@
             </div>
         </div>
     </footer>
-
-    <a id="backToTopButton" href="#home">
-        <svg 
-            width="40" 
-            height="40" 
-            viewBox="0 0 40 40" 
-            fill="none" 
-            xmlns="http://www.w3.org/2000/svg"
-        >
-            <circle cx="20" cy="20" r="20" fill="#36447c"/>
-            <path d="M20 27V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M13 20L20 13L27 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-            
-    </a>
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./main.js"></script>

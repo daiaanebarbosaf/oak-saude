@@ -545,112 +545,6 @@ body.menu-expanded button path {
   margin-block: 1.6rem;
 }
 
-/*============CONGIGURAÇÕES DO CONTACT============*/
-
-#contact {
-  text-align: left;
-
-}
-
-#contact header {
-  margin-bottom: 3.2rem;
-  text-align: center;
-}
-
- form {
-  margin-top: 1rem;
-
-  border-radius: 1rem 1rem 0 0;
-  background: #FAFAFC;
-  min-height: 30%;
-
-  padding: 6rem;
-
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-}
-
-fieldset {
-  border: none;
-}
-
-.fieldset-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-fieldset legend {
-  font-weight: 400;
-  font-size: 3rem;
-  line-height: 3rem;
-  width: 100%;
-  border-bottom: .1rem solid #E6E6F0;
-  padding-bottom: 2rem;
-  margin-bottom: 3rem;
-}
-
-.input-wrapper {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-
-.input-wrapper label {
-  font-size: 1.5rem;
-  line-height: 2rem;
-
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-.input-wrapper label span {
-  margin-left: 1rem;
-
-  font-size: 1.2rem;
-  line-height: 2rem;
-  color: #a9a7af;
-}
-
-.input-wrapper label span:hover {
-  color: #6c6a71;
-}
-
-.input-wrapper input,
-.input-wrapper textarea {
-  background: #FAFAFC;
-
-  border: .1rem solid #E6E6F0;
-  border-radius: 1rem;
-
-  height: 5rem;
-
-  padding: 0 2rem;
-
-  font-size: 1rem;
-  line-height: 2rem;
-
-}
-
-.col-3 {
-  display: flex;
-  gap: 2rem;
-}
-
-.col-3 > div:nth-child(1){
-  width: 40%;
-}
-
-.col-3 > div:nth-child(2){
-  width: 60%;
-}
-
-.input-wrapper textarea {
-  padding: 1rem;
-  height: 16rem;
-}
-
 /*============CONGIGURAÇÕES DO FOOTER============*/
 
 footer {
@@ -710,22 +604,6 @@ footer .social-links {
 
 
 /*============CONGIGURAÇÕES DE RESPONSIVIDADE============*/
-
-@media (max-width: 420px){
-
-  form {
-    padding: 1rem;
-  
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-  }
-
-  legend {
-    text-align: center;
-  }
-  
-}
 
 
 @media (min-width: 1024px){
@@ -930,9 +808,9 @@ footer .social-links {
       gap: 0;
   }
 
-  #home .stats .stat + .stat {
-     /* border-left: 1px solid var(--primary-color);*/
-  }
+  /*#home .stats .stat + .stat {
+      border-left: 1px solid var(--primary-color);
+  }*/
 
   #home .stats .stat {
       flex: 1;
