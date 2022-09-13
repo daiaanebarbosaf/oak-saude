@@ -808,15 +808,9 @@ footer .social-links {
       gap: 0;
   }
 
-<<<<<<< HEAD:style.css
-  #home .stats .stat + .stat {
-     /* border-left: 1px solid var(--primary-color);*/
-  }
-=======
   /*#home .stats .stat + .stat {
       border-left: 1px solid var(--primary-color);
   }*/
->>>>>>> origin/hotflix-dai-13092022:css/style.css
 
   #home .stats .stat {
       flex: 1;
