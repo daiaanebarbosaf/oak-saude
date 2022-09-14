@@ -31,7 +31,7 @@
 }
 
 form {
-  margin-top: 30rem;
+  margin-top: 2rem;
  
   min-height: 30%;
   width: 45%;
@@ -101,10 +101,30 @@ fieldset {
 /*============CONGIGURAÇÕES DO MAPA============*/
 
 #mapa {
-  width: 40%;
-  height: 75rem;
+  width: 60%;
+  height: 55rem;
 
   margin-left: 11rem;
+}
+
+/*============CONGIGURAÇÕES DO ADDRESs============*/
+
+#address {
+  gap: 1rem;
+}
+
+#address ul {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+
+  border: 0.1rem solid var(--primary-color);
+}
+
+#address ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
 }
 
 /*============CONGIGURAÇÕES DE RESPONSIVIDADE============*/
@@ -123,4 +143,9 @@ fieldset {
     text-align: center;
   }
   
+}
+
+@media (min-width: 1024px){
+      /*==========CONFIGURAÇÕES DO CONTACT==========*/
+
 }
