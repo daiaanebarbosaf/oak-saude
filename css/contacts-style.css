@@ -20,30 +20,14 @@
 
 /*============CONGIGURAÇÕES DO CONTACT============*/
 
-#contact {
-  text-align: left;
-  display: flex;
-}
-
-#contact header {
-  margin-bottom: 3.2rem;
-  text-align: center;
-}
 
 form {
   margin-top: 2rem;
- 
-  min-height: 30%;
-  width: 45%;
 
-  padding: 6rem;
-
+  align-items: center;
   display: flex;
   flex-direction: column;
-}
-
-fieldset {
-  border: none;
+  gap: 4rem;
 }
 
 .fieldset-wrapper {
@@ -58,7 +42,6 @@ fieldset {
   text-align: left;
 }
 
-
 .input-wrapper ::placeholder {
   margin-left: 1rem;
 
@@ -71,22 +54,18 @@ fieldset {
 .input-wrapper textarea {
   font-family: 'DM Sans';
 
-  background: #FAFAFC;
   color: #878396;
 
   border: .1rem solid #E6E6F0;
   border-radius: 1rem;
-
+  width: 45rem;
   height: 5rem;
 
   padding: 0 2rem;
 
   line-height: 2rem;
   font-size: 1.5rem;
-
-  margin-bottom: 1rem;
 }
-
 
 .input-wrapper textarea {
   padding-top: 1rem;
@@ -95,36 +74,40 @@ fieldset {
  
   font-size: 1.5rem;
   line-height: 2rem;
-  color: #a9a7af;
 }
 
-/*============CONGIGURAÇÕES DO MAPA============*/
-
-#mapa {
-  width: 60%;
-  height: 55rem;
-
-  margin-left: 11rem;
+.col-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
+
 
 /*============CONGIGURAÇÕES DO ADDRESs============*/
 
 #address {
+  display: flex;
+  justify-content: center;
+}
+
+#address ul li {
+  display: flex;
+  text-align: left;
+  align-items: center;
   gap: 1rem;
 }
 
 #address ul {
   display: flex;
-  align-items: left;
+  
   flex-direction: column;
+  gap: 2rem;
 
-  border: 0.1rem solid var(--primary-color);
+
 }
 
-#address ul li {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
+.button {
+  text-transform: capitalize;
 }
 
 /*============CONGIGURAÇÕES DE RESPONSIVIDADE============*/
@@ -146,6 +129,114 @@ fieldset {
 }
 
 @media (min-width: 1024px){
-      /*==========CONFIGURAÇÕES DO CONTACT==========*/
+
+  #contact {
+    text-align: left;
+    display: flex;
+  }
+
+  #contact header {
+    margin-bottom: 3.2rem;
+  }
+
+  form {
+    margin-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+    gap: 4rem;
+  }
+
+  fieldset {
+    border: none;
+  }
+
+  .fieldset-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .input-wrapper ::placeholder {
+    margin-left: 1rem;
+
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #a9a7af;
+  }
+
+  .input-wrapper input,
+  .input-wrapper textarea {
+    font-family: 'DM Sans';
+
+    color: #878396;
+
+    border: .1rem solid #E6E6F0;
+    border-radius: 1rem;
+    width: 45rem;
+    height: 5rem;
+
+    padding: 0 2rem;
+
+    line-height: 2rem;
+    font-size: 1.5rem;
+
+  }
+
+
+  .input-wrapper textarea {
+    padding-top: 1rem;
+    height: 16rem;
+
+  
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .col-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /*============CONGIGURAÇÕES DO MAPA============*/
+
+  #mapa {
+    width: 40%;
+    height: 75rem;
+
+    margin-left: 14rem;
+  }
+
+  /*============CONGIGURAÇÕES DO ADDRESs============*/
+
+  #address {
+    width: 40%;
+    margin-left: 2rem;
+  }
+
+  #address ul {
+    display: flex;
+    align-items: left;
+    
+    flex-direction: column;
+    gap: 2rem;
+
+    /*border: 0.1rem solid var(--primary-color);*/
+  }
+
+  #address ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
 
 }
