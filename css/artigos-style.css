@@ -19,29 +19,33 @@
 }
 
 #id-page {
-  /*background-color: orange;*/
   background-image: 
   url('../assets/medicos.png');
   background-repeat: 
   no-repeat;
 
   margin-top: 7rem;
-  padding-left: 3rem;
 
   display: flex;
 
   height: 9rem;
   position:absolute;
 
-  width: 100vw;
+  width: 100%;
   z-index: 100;
 
   align-items: center;
 
-  font-size: 3rem;
+
   font-weight: 900;
   line-height: 3.9rem;
   color: var(--primary-color);
+}
+
+#id-page h1 {
+  font-size: 4rem;
+
+  padding-left: 5rem;
 }
 
 #artigos .wrapper {
@@ -57,6 +61,9 @@
   width: 40rem;
 }
 
+#artigos .col__a {
+  margin-top: 15rem;
+}
 
 #artigos .col__a,
 .col__b,
@@ -121,9 +128,9 @@
 }
 @media (min-width: 1024px){
 
-  #id-page {
-    margin-top: 7rem;
-    padding-left: 8rem;
+  #id-page h1 {
+    font-size: 4rem;
+    padding-left: 10rem;
   }
 
   #artigos .wrapper{
@@ -133,5 +140,8 @@
     align-items: center;
   }
 
+  #artigos .col__a {
+    margin-top: 3rem;
+  }
 
 }
