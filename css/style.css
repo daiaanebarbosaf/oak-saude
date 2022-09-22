@@ -561,7 +561,82 @@ body.menu-expanded button path {
   margin-block: 1.6rem;
 }
 
+/*============CONGIGURAÇÕES DO ARTIGOS============*/
 
+#artigos .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+ 
+}
+
+#artigos ul {
+  margin: 1rem auto;
+}
+
+#artigos img {
+  width: 40rem;
+}
+
+#artigos .col__a {
+  margin-top: 15rem;
+}
+
+#artigos .col__a,
+.col__b,
+.col__c {
+ 
+  background-color: var(--brand-beige);
+  width: 35rem;
+
+  text-align: left;
+
+  background: var(--bg-light);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(206, 191, 191, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 1px solid rgba(195, 190, 196, 0.28);
+}
+
+#artigos .col__a:hover {
+  background: var(--bg-light);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(77, 67, 67, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 1px solid rgba(218, 208, 218, 0.28);
+}
+
+#artigos .col__b:hover {
+  background: var(--bg-light);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(77, 67, 67, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 1px solid rgba(218, 208, 218, 0.28);
+}
+
+#artigos .col__c:hover {
+  background: var(--bg-light);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(77, 67, 67, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 1px solid rgba(218, 208, 218, 0.28);
+}
+
+#artigos h2 {
+  padding: 4rem;
+}
+
+#artigos p {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 4rem;
+
+  line-height: 3rem;
+}
 
 /*============CONGIGURAÇÕES DO FOOTER============*/
 
@@ -650,7 +725,7 @@ footer .social-links {
   }
 
   section {
-      padding-block: 10rem;
+      padding-block: 5rem;
   }
 
   section header h2 {
@@ -916,6 +991,18 @@ footer .social-links {
 
     #consulta-especializada h2 {
       width: 50.4rem;
+    }
+  /*==========CONFIGURAÇÕES DO ARTIGOS==========*/
+  
+    #artigos .wrapper{
+      gap: 3rem;
+      margin: 3rem auto;
+  
+      align-items: center;
+    }
+  
+    #artigos .col__a {
+      margin-top: 2rem;
     }
 
   /*==========CONFIGURAÇÕES DO FOOTER==========*/

@@ -17,7 +17,7 @@
 <body>
     <nav id="navigation">
       <div class="wrapper">
-          <a class="logo" href="index.html">
+        <a class="logo" href="index.html">
             <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 xml:space="preserve" 
@@ -67,8 +67,9 @@
                 </g>
             </svg>
 
-          </a>
-          <div class="menu">
+        </a>
+
+        <div class="menu">
               <ul>
                   <li><a onclick="closeMenu()" href="index.html">Início</a></li>
 
@@ -78,7 +79,7 @@
 
                   <li><a onclick="closeMenu()" href="#services">Compliance</a></li>
 
-                  <li><a onclick="closeMenu()" href="artigos.html">Artigos</a></li>
+                  <li><a onclick="closeMenu()" href="#artigos">Artigos</a></li>
 
                   <li><a onclick="closeMenu()" href="contacts.html">Contato</a></li>
               </ul>
@@ -114,41 +115,71 @@
                       </a>
                   </li>
               </ul>
-          </div>
+        </div>
 
-          <button 
-          arial-expanded="false"
-          aria-label="Abrir menu"
-          onclick="openMenu()"
-          class="open-menu">
-              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M10 20H30" stroke="#00856F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M10 12H30" stroke="#00856F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M18 28L30 28" stroke="#00856F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-          </button>
-          <button 
-          arial-expanded="true"
-          aria-label="Fechar menu"
-          onclick="closeMenu()"
-          class="close-menu">
-              <svg 
-                  width="40" 
-                  height="40" 
-                  viewBox="0 0 40 40" 
-                  fill="none" 
-                  xmlns="http://www.w3.org/2000/svg"
-              >
-                  <path 
-                      d="M30 10L10 30M10 10L30 30" 
-                      stroke="#FFFAF1" 
-                      stroke-width="2" 
-                      stroke-linecap="round" 
-                      stroke-linejoin="round"
-                  />
-              </svg>
+        <button 
+            arial-expanded="false"
+            aria-label="Abrir menu"
+            onclick="openMenu()"
+            class="open-menu"
+        >
+            <svg 
+                width="40" 
+                height="40" 
+                viewBox="0 0 40 40" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path 
+                    d="M10 20H30" 
+                    stroke="#00856F" 
+                    stroke-width="2" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                />
                   
-          </button>
+                <path 
+                    d="M10 12H30" 
+                    stroke="#00856F" 
+                    stroke-width="2" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                />
+                
+                <path 
+                    d="M18 28L30 28" 
+                    stroke="#00856F" 
+                    stroke-width="2" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                />
+            </svg>
+        </button>
+
+        <button 
+            arial-expanded="true"
+            aria-label="Fechar menu"
+            onclick="closeMenu()"
+            class="close-menu"
+        >
+            <svg 
+                width="40" 
+                height="40" 
+                viewBox="0 0 40 40" 
+                fill="none" 
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path 
+                    d="M30 10L10 30M10 10L30 30" 
+                    stroke="#FFFAF1" 
+                    stroke-width="2" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round"
+                />
+            </svg>
+                  
+        </button>
+
       </div>
     </nav>
 
@@ -388,7 +419,42 @@
             </div>
         </div>
         <div class="line"></div>
-    </section >
+    </section>
+
+    <section id="artigos"> 
+        <div id="cols">
+            <header>
+                <!--<h4>Artigos</h4>-->
+                <h2>Artigos</h2>
+              </header>
+            <div class="wrapper">
+                <ul class="col__a">
+                    <li>
+                        <img src="./assets/doutor-feliz-segurando-prancheta-com-pacientes.png" alt="">
+    
+                        <h2>COVID-19 e justa causa: posso ser despedido se recusar a vacina?</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A sit non voluptatum assumenda veritatis, aperiam neque cum sint facere impedit mollitia natus ipsum similique animi suscipit deleniti unde quam eaque.</p>
+                    </li>
+                </ul>
+    
+                 <ul class="col__b">
+                    <li>
+                        <img src="./assets/doutor-feliz-segurando-prancheta-com-pacientes.png" alt="">
+                        <h2>COVID-19 e justa causa: posso ser despedido se recusar a vacina?</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A sit non voluptatum assumenda veritatis, aperiam neque cum sint facere impedit mollitia natus ipsum similique animi suscipit deleniti unde quam eaque.</p>
+                    </li>
+                 </ul>
+                 
+                 <ul class="col__c">
+                    <li>
+                        <img src="./assets/doutor-feliz-segurando-prancheta-com-pacientes.png" alt="">
+                        <h2>COVID-19 e justa causa: posso ser despedido se recusar a vacina?</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A sit non voluptatum assumenda veritatis, aperiam neque cum sint facere impedit mollitia natus ipsum similique animi suscipit deleniti unde quam eaque.</p>
+                    </li>
+                 </ul>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div class="wrapper">
