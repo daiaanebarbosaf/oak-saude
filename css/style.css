@@ -73,7 +73,7 @@ img {
 }
 
 section {
-  padding-block: 10rem;
+  padding-block: 5rem;
 }
 
 section header h4{
@@ -567,7 +567,11 @@ body.menu-expanded button path {
   display: flex;
   flex-wrap: wrap;
 
- 
+}
+
+#artigos a {
+  text-decoration: none;
+  color: var(--headline);
 }
 
 #artigos ul {
