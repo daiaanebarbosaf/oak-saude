@@ -85,7 +85,7 @@ section header h4{
 
   text-transform: uppercase;
 
-  margin-bottom: 1.6rem;
+  margin-bottom: 2.6rem;
 }
 
 section header h2{
@@ -729,7 +729,7 @@ footer .social-links {
   }
 
   section {
-      padding-block: 5rem;
+      padding-block: 15rem;
   }
 
   section header h2 {
