@@ -186,7 +186,7 @@ nav {
   z-index: 100;
 }
 
-nav .wrapper{
+nav .wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -672,6 +672,11 @@ footer p {
   line-height: 2;
 
   margin-bottom: 3.2rem;
+}
+
+footer a {
+  color: var(--brand-beige);
+  text-decoration: none;
 }
 
 footer .social-links {
