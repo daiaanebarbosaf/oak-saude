@@ -1,6 +1,4 @@
-# oak
-Site comercial 
-<h1 align="center"> Doctor Care </h1>
+<h1 align="center"> OAK - Saúde </h1>
 <p align="center">
 Esse projeto é a solução para uma boa comunicação entre os pacientes e médicos, criado para empresa OAK.
 </p>
