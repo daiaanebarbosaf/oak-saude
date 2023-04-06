@@ -1,6 +1,6 @@
 <h1 align="center"> OAK - Saúde </h1>
 <p align="center">
-Esse projeto é a solução para uma boa comunicação entre os pacientes e médicos, criado para empresa OAK.
+Esse projeto é a solução para uma boa comunicação entre pacientes e médicos, criado para empresa OAK.
 </p>
 
 <p align="center">
