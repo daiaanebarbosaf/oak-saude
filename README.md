@@ -9,7 +9,11 @@ Esse projeto é a solução para uma boa comunicação entre os pacientes e méd
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
+## Versão Web
+
 ![prewiew](./.github/home.PNG)
+
+## Versão Mobile
 
 <p align="center">
   <img alt="imagem-phone" src="./.github/home-cel.PNG" width="50%">
