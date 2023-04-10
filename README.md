@@ -1,6 +1,6 @@
 <h1 align="center"> OAK - Saúde </h1>
 <p align="center">
-Esse projeto é a solução para uma boa comunicação entre os pacientes e médicos, criado para empresa OAK.
+Esse projeto é a solução para uma boa comunicação entre pacientes e médicos, criado para empresa OAK.
 </p>
 
 <p align="center">
@@ -34,3 +34,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
 
 ---
+
+Feito por Daiane Farias 👋  [Me acompanhe nas redes sociais!](https://daiaanebarbosaf.github.io/rocketlinks/)
