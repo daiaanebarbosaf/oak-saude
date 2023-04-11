@@ -564,6 +564,10 @@ body.menu-expanded button path {
 
 #address {
   margin-top: 10rem;
+
+  display: grid;
+  grid-template-areas: 
+  "A B"
 }
 
 form {
@@ -645,6 +649,14 @@ form {
   flex-direction: column;
   gap: 2rem;
 
+}
+
+.col-a {
+  grid-area: A;
+}
+
+.col-b {
+  grid-area: B;
 }
 
 .button {
