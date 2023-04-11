@@ -566,6 +566,7 @@ body.menu-expanded button path {
   margin-top: 10rem;
 
   display: grid;
+  grid-template-columns: 20rem auto;
   grid-template-areas: 
   "A B"
 }
