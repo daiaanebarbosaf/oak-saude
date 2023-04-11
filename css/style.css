@@ -652,11 +652,11 @@ form {
 
 }
 
-.col-a {
+#address.col-a {
   grid-area: A;
 }
 
-.col-b {
+#address.col-b {
   grid-area: B;
 }
 
