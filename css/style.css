@@ -562,15 +562,6 @@ body.menu-expanded button path {
 
 /*============CONGIGURAÇÕES DO ADDRESs============*/
 
-#address {
-  margin-top: 10rem;
-
-  display: grid;
-  grid-template-columns: 20rem auto;
-  grid-template-areas: 
-  "A B"
-}
-
 form {
   margin-top: 2rem;
 
@@ -635,7 +626,10 @@ form {
 #address {
   display: flex;
   justify-content: center;
+
+  flex-wrap: wrap;
 }
+
 
 #address ul li {
   display: flex;
@@ -652,13 +646,6 @@ form {
 
 }
 
-#address.col-a {
-  grid-area: A;
-}
-
-#address.col-b {
-  grid-area: B;
-}
 
 .button {
   text-transform: capitalize;
@@ -773,21 +760,32 @@ form {
   /*============CONGIGURAÇÕES DO ADDRESs============*/
 
   #address {
-    width: 40%;
-    margin-left: 2rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 120rem auto;
+    grid-template-areas: 
+    "A B";
   }
+
+  #address .col-a {
+    width: 40%;
+    grid-area: A;
+  }
+
+  #address .col-b {
+    width: 60%;
+    grid-area: B;
+  }
+  
 
   #address ul {
     display: flex;
-    align-items: left;
-    
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 2rem;
   }
 
   #address ul li {
     display: flex;
-    align-items: center;
     gap: 0.8rem;
   }
 
@@ -1151,18 +1149,6 @@ footer .social-links {
 
     #consulta-especializada h2 {
       width: 50.4rem;
-    }
-  /*==========CONFIGURAÇÕES DO ARTIGOS==========*/
-  
-    #artigos .wrapper{
-      gap: 3rem;
-      margin: 3rem auto;
-  
-      align-items: center;
-    }
-  
-    #artigos .col__a {
-      margin-top: 2rem;
     }
 
   /*==========CONFIGURAÇÕES DO FOOTER==========*/
