@@ -3,7 +3,6 @@ window.addEventListener('scroll', onScroll)
 const navigation = document.getElementById('navigation')
 
 onScroll()
-//Gerencia os Scrolls da página
 function onScroll() {
     showNavOnScroll()
     showBackToTopButtonOnScroll()
@@ -27,15 +26,10 @@ function activateMenuAtCurrentSection(section) {
    
     const sectionEadAt = sectionTop + sectionHeight
 
-    //o final da seção passou da linha do alvo
+
     const sectionEndPassedTargetline = sectionEadAt <= targetLine
-
-    //console.log(
-    //    'O fundo da seção passou da linha alvo',
         sectionEndPassedTargetline
-   // )
 
-    //limites da seção
     const sectionBoundaries =
     sectionTopReachOrPassedTargetLine && !sectionEndPassedTargetline
     
@@ -48,7 +42,6 @@ function activateMenuAtCurrentSection(section) {
     }
 }
 
-//Mostrar o navigation ao mostrar o scroll
 function showNavOnScroll() {
     if (scrollY > 0) {
         navigation.classList.add('scroll')
@@ -57,7 +50,6 @@ function showNavOnScroll() {
     }
 }
  
-//Mostrar o botão back to top ao rolar a página para baixo
 function showBackToTopButtonOnScroll() {
     if(scrollY > 400) {
         backToTopButton.classList.add('show')
@@ -82,11 +74,18 @@ ScrollReveal({
     #home, 
     #home img, 
     #home .stats, 
-    #services,
-    #services header,
-    #services .card
+
     #about, 
     #about header, 
     #about .content
     #about-missao,
-    #about-visao,`)
+    #about-visao,
+
+    #beneficios-teleatendimento,
+    #beneficios-teleatendimento header,
+    #beneficios-teleatendimento content,
+    #beneficios-teleatendimento img,
+
+    #services,
+    #services header,
+    #services .card,`)
