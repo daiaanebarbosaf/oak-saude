@@ -882,6 +882,7 @@ nav#navigation .social-links {
 
 nav#navigation .menu {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 70%;
 }
