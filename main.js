@@ -9,9 +9,9 @@ function onScroll() {
 
     activateMenuAtCurrentSection(home)
     activateMenuAtCurrentSection(about)
-    activateMenuAtCurrentSection(beneficios-teleatendimento)
-    activateMenuAtCurrentSection(consulta-especializada)
-    activateMenuAtCurrentSection(services)
+    activateMenuAtCurrentSection(beneficios)
+    activateMenuAtCurrentSection(consulta)
+    activateMenuAtCurrentSection(compliance)
     activateMenuAtCurrentSection(address)
 }
 
@@ -79,17 +79,21 @@ ScrollReveal({
 
     #about, 
     #about header, 
-    #about .content
-    #about-missao,
-    #about-visao,
+    #about .content,
 
-    #beneficios-teleatendimento,
-    #beneficios-teleatendimento header,
-    #beneficios-teleatendimento content,
-    #beneficios-teleatendimento img,
+    #consulta,
+    #consulta header,
+    #consulta img,
+    #consulta .content,
 
-    #services,
-    #services header,
-    #services .card,
+    #beneficios,
+    #beneficios header,
+    #beneficios .content,
+    #beneficios img,
+
+    #compliance,
+    #compliance header,
+    #compliance .cards,
     
-    #address,`)
+    #address col-a,
+    #address col-b,`)
