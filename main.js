@@ -93,7 +93,8 @@ ScrollReveal({
 
     #compliance,
     #compliance header,
+    #compliance .content,
     #compliance .cards,
     
-    #address col-a,
-    #address col-b,`)
+    #address .col-a,
+    #address .col-b,`)
