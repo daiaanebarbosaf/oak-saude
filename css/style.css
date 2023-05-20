@@ -149,17 +149,17 @@ section .content p {
   gap: 3.2rem;
 }
 
-#services .card circle {
+#compliance .card circle {
   fill: var(--brand-light);
 }
 
 button.open-menu path[stroke*="#00856F"],
-#beneficios-teleatendimento li path {
+#beneficios li path {
   stroke: var(--primary-color);
 }
 
 button.open-menu path[stroke*="#00856F"],
-#consulta-especializada li path {
+#consulta li path {
   stroke: var(--primary-color);
 }
 
@@ -460,16 +460,16 @@ body.menu-expanded button path {
 
 /*============CONGIGURAÇÕES DO BENEFICIOS ATENDIMENTO============*/
 
-#beneficios-teleatendimento {
+#beneficios {
   text-align: left;
   animation: appear 3s ease-in;
 }
 
-#beneficios-teleatendimento header {
+#beneficios header {
   margin-bottom: 3.2rem;
 }
 
-#beneficios-teleatendimento ul {
+#beneficios ul {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
@@ -477,7 +477,7 @@ body.menu-expanded button path {
   margin-bottom: 3.2rem;
 }
 
-#beneficios-teleatendimento ul li {
+#beneficios ul li {
   display: flex;
   align-items: center;
   gap: 0.8rem;
@@ -485,17 +485,17 @@ body.menu-expanded button path {
 
 /*============CONGIGURAÇÕES DO CONSULTA ESPECIALIZADA============*/
 
-#consulta-especializada {
+#consulta {
   text-align: left;
   animation: appear 3s ease-in;
 }
 
-#consulta-especializada header {
+#consulta header {
   margin-bottom: 3.2rem;
 
 }
 
-#consulta-especializada ul {
+#consulta ul {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
@@ -503,27 +503,27 @@ body.menu-expanded button path {
   margin-bottom: 3.2rem;
 }
 
-#consulta-especializada ul li {
+#consulta ul li {
   display:flex;
   align-items: center;
   gap: 0.8rem;
 }
 
-#consulta-especializada .wrapper{
+#consulta .wrapper{
   gap: 5.8rem;
 }
 
-/*============CONGIGURAÇÕES DO SERVICES============*/
+/*============CONGIGURAÇÕES DO COMPLIANCE============*/
 
-#services {
+#compliance {
   animation: appear 3s ease-in;
 }
 
-#services h2 {
+#compliance h2 {
   margin-bottom: 6rem;
 }
 
-#services header h4{
+#compliance header h4{
   font-size: 1.4rem;
   line-height: 150%;
   letter-spacing: 0.08rem;
@@ -535,7 +535,7 @@ body.menu-expanded button path {
   margin-bottom: 1.6rem;
 }
 
-#services header h2 {
+#compliance header h2 {
   font-size: 3rem;
   line-height: 3.9rem;
 
@@ -543,20 +543,20 @@ body.menu-expanded button path {
   margin-bottom: 2rem;
 }
 
-#services p {
+#compliance p {
   margin-top: 2.4rem;
   margin-bottom: 6rem;
 
   color: var(--headline);
 }
 
-#services .cards {
+#compliance .cards {
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
 }
 
-#services .card {
+#compliance .card {
   padding: 2.4rem;
   text-align: left;
 
@@ -565,7 +565,7 @@ body.menu-expanded button path {
   border-radius: 0.9rem;
 }
 
-#services .card h3 {
+#compliance .card h3 {
   margin-block: 1.6rem;
 }
 
@@ -1046,20 +1046,20 @@ footer .social-links {
       width: 42rem;
   }
 
-  /*==========CONFIGURAÇÕES DO SERVICES==========*/
+  /*==========CONFIGURAÇÕES DO COMPLIANCE==========*/
 
-  #services h2 {
+  #compliance h2 {
       width: 47rem;
       margin-inline: auto;
   }
 
-  #services .cards {
+  #compliance .cards {
       flex-direction: row;
       flex-wrap: wrap;
       gap: 4rem;
   }
 
-  #services .card {
+  #compliance .card {
       width: 20%;
       flex-grow: 1;
   }
@@ -1098,23 +1098,23 @@ footer .social-links {
 
   /*==========CONFIGURAÇÕES DO BENEFICIOS ATENDIMENTO==========*/
 
-  #beneficios-teleatendimento .wrapper {
+  #beneficios .wrapper {
       grid-template-columns: 1fr 57.5rem;
       grid-template-areas:  'A B ';
   }
 
-  #beneficios-teleatendimento h2 {
+  #beneficios h2 {
       width: 40.4rem;
   }
 
     /*==========CONFIGURAÇÕES DO CONSULTA ESPECIALIZADA==========*/
 
-    #consulta-especializada .wrapper {
+    #consulta .wrapper {
       grid-template-columns: 1fr 57.5rem;
       grid-template-areas:  'B A';
     }
 
-    #consulta-especializada h2 {
+    #consulta h2 {
       width: 50.4rem;
     }
 
